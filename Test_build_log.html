@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Test build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>27-05-2022 at 11:09.47</u><br />
+Build ended on: <u>27-05-2022 at 11:09.52</u><p />
+<b>-------------- Build: Debug in Test (compiler: GNU GCC Compiler)---------------</b><br />
+g++.exe -Wall -fexceptions  -g     -c F:\Test\main.cpp -o obj\Debug\main.o<br />
+F:\Test\main.cpp: In function 'bool click(int)':<br />
+<font color="#0000ff">F:\Test\main.cpp:14:6: warning: no previous declaration for 'bool click(int)' [-Wmissing-declarations]</font><br />
+ bool click(int y)<br />
+      ^<br />
+F:\Test\main.cpp: In function 'void DrawAnswer(int, std::string, COLORREF, COLORREF)':<br />
+<font color="#0000ff">F:\Test\main.cpp:22:6: warning: no previous declaration for 'void DrawAnswer(int, std::string, COLORREF, COLORREF)' [-Wmissing-declarations]</font><br />
+ void DrawAnswer(int y, string answer, COLORREF color1, COLORREF color2)<br />
+      ^<br />
+F:\Test\main.cpp: In function 'std::string getPart(int*, std::string)':<br />
+<font color="#0000ff">F:\Test\main.cpp:31:8: warning: no previous declaration for 'std::string getPart(int*, std::string)' [-Wmissing-declarations]</font><br />
+ string getPart(int *pos2, string str)<br />
+        ^<br />
+F:\Test\main.cpp: In constructor 'Form::Form()':<br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::question' should be initialized in the member initialization list [-Weffc++]</font><br />
+ struct  Form<br />
+         ^<br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::answer1' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::answer2' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::answer3' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::answer4' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::right_answer' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">F:\Test\main.cpp:4:9: warning: 'Form::address' should be initialized in the member initialization list [-Weffc++]</font><br />
+F:\Test\main.cpp: In function 'int main()':<br />
+F:\Test\main.cpp:53:6: note: synthesized method 'Form::Form()' first required here <br />
+ Form form0;<br />
+      ^<br />
+g++.exe  -o bin\Debug\Test.exe obj\Debug\main.o     -mwindows<br />
+Output size is 2,19 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 4 seconds)</font><br />
+<font color="#0000ff">0 errors, 10 warnings (0 minutes, 4 seconds)</font><br />
+</tt>
+</body>
+</html>
